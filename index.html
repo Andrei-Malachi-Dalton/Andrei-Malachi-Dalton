@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FreeCodeCamp Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Personal Survey</h1>
+        <p>Tell me about yourself!</p>
+
+        <!--Form code-->
+            <form>
+                <fieldset>
+                    <label>Name <input type="text" id="name" name="name" required></label>
+                    <label>Email <input type="email" id="email" name="email" required></label>
+                    <label>Age <input type="number" id="age" name="age" min="1" max="99"></label>
+                    <label>Do you work? </label>
+                    <select id="occupation" name="occupation">
+                        <option value="fulltime">Yes - Full time</option>
+                        <option value="parttime">Yes - Part time</option>
+                        <option value="student" selected>I am a student</option>
+                        <option value="unemployed">Unemployed</option>
+                    </select>
+                </fieldset>
+            </form>
+    </body>
+</html>
