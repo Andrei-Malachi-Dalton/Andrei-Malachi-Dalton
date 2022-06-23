@@ -1,9 +1,11 @@
 body {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0;
     background-image: url(https://cdn.theatlantic.com/thumbor/vDZCdxF7pRXmZIc5vpB4pFrWHKs=/559x0:2259x1700/1080x1080/media/img/mt/2017/06/shutterstock_319985324/original.jpg);
-    position: fixed;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     font-family: Tahoma;
     font-size: 16px;
@@ -19,13 +21,17 @@ form {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
+    padding: 1rem;
     background-color: green;
+}
+
+.form-padding {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
 }
 
 fieldset {
     border: none;
-    padding: 2rem 0;
 }
 
 label {
@@ -42,6 +48,7 @@ input, textarea, select {
 input, textarea {
     background-color: #003300;
     border: 1px solid #003300;
+    width: 100%;
     color: white;
 }
 
@@ -51,4 +58,13 @@ input, textarea {
     vertical-align: middle;
 }
 
-input[type="submit"] {}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #00cc44;
+    border-color: #00cc44;
+    min-width: 300px;
+}

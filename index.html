@@ -5,23 +5,61 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <h1>Personal Survey</h1>
-        <p>Tell me about yourself!</p>
+        <h1 id="title">Personal Survey</h1>
+        <p id="description">Tell me about yourself!</p>
 
         <!--Form code-->
-            <form>
+            <form id="survey-form">
                 <fieldset>
-                    <label>Name <input type="text" id="name" name="name" required></label>
-                    <label>Email <input type="email" id="email" name="email" required></label>
-                    <label>Age <input type="number" id="age" name="age" min="1" max="99"></label>
-                    <label>Do you work? </label>
-                    <select id="occupation" name="occupation">
-                        <option value="fulltime">Yes - Full time</option>
-                        <option value="parttime">Yes - Part time</option>
-                        <option value="student" selected>I am a student</option>
-                        <option value="unemployed">Unemployed</option>
-                    </select>
+                    <div class="form-padding">
+                        <label id="name-label">Name <input type="text" id="name" name="name" placeholder="John Doe" required></label>
+                    </div>
+                    <div class="form-padding">
+                        <label id="email-label">Email <input type="email" id="email" name="email" placeholder="123@abc.com" required></label>
+                    </div>
+                    <div class="form-padding">
+                        <label id="number-label">Age <input type="number" id="number" name="age" min="1" max="99" placeholder="28"></label>
+                    </div>
+                    <div class="form-padding">
+                        <label>Do you work? </label>
+                        <select id="dropdown" name="occupation">
+                            <option value="fulltime">Yes - Full time</option>
+                            <option value="parttime">Yes - Part time</option>
+                            <option value="student" selected>I am a student</option>
+                            <option value="unemployed">Unemployed</option>
+                        </select>
+                    </div>
                 </fieldset>
+                <fieldset>
+                    <p>Do you like cats?</p>
+                    <label><input type="radio" name="answer" class="inline" value="yes">Yes</label>
+                    <label><input type="radio" name="answer" class="inline" value="no">No</label>
+                    
+                    <br>
+                    
+                    <label>Which cultures cuisine is your favorite?
+                        <select name="culture">
+                            <option value="0">(select one)</option>
+                            <option value="1">Chinese</option>
+                            <option value="2">American</option>
+                            <option value="3">Italian</option>
+                            <option value="4">Mexican</option>
+                        </select>
+                    </label>
+                    
+                    <br>
+                    
+                    <label>Are all of your answers truthful?
+                        <input type="checkbox" name="answer" class="inline"> Yes
+                        <input type="checkbox" name="answer" class="inline"> No
+                    </label>
+                    <br>
+
+                    <label>Have any words for the people?
+                        <textarea name="comments" rows="3" cols="30" placeholder="Some words......"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit">
             </form>
     </body>
 </html>
