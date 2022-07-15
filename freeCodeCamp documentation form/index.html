@@ -7,41 +7,174 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <nav id="navbar">
+            <ul>
+                <header>Cardiac Surgery</header>
+                <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#History">History</a></li>
+                <li><a class="nav-link" href="#Types_of_cardiac_surgery">Types of cardiac surgery</a></li>
+                <li><a class="nav-link" href="#Post-surgical_procedures">Post-surgical procedures</a></li>
+                <li><a class="nav-link" href="#Risks">Risks</a></li>
+                <li><a class="nav-link" href="#Code">Code</a></li>
+            </ul>
+        </nav>
+
         <main id="main-doc">
-            <nav id="navbar">
-                <ul>
-                    <header>Cardiac Surgery</header>
-                    <li><a href="#introduction">Introduction</a></li>
-                    <li><a href="#history">History</a></li>
-                    <li><a href="#types_of_cardiac_surgery">Types of cardiac surgery</a></li>
-                    <li><a href="#post_surgical_procedures">Post-surgical procedures</a></li>
-                    <li><a href="#risks">Risks</a></li>
-                </ul>
-            </nav>
-            <div class="info-container">
-                <section class="main-section" id="introduction">
-                    <header>Introduction</header>
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <article>
                     <p>Cardiac surgery, or cardiovascular surgery, is surgery on the heart or great vessels performed by cardiac surgeons. It is often used to treat complications
                         of ischemic heart disease (for example, with coronary artey bypass grafting); to correct congenital heart disease; or to treat valvular heart disease from various 
                         causes, including endocarditis, reheumatic heart disease, and atherosclerosis. It also includes heart transplantation.
                     </p>
-                </section>
-                <section class="main-section" id="history">
-                    <header>History</header>
+                </article>
+            </section>
+
+            <section class="main-section" id="History">
+                <header>History</header>
+                <!-- <article> tag specifies independent, self-contained content -->
+                <article>
                     <h3>19th century</h3>
-                    <p></p>
-                </section>
-                <section class="main-section" id="types_of_cardiac_surgery">
-                    <header>Types of cardiac surgery</header>
-                </section>
-                <section class="main-section" id="post_surgical_procedures">
-                    <header>Post-surgical procedures</header>
-                </section>
-                <section class="main-section" id="risks">
-                    <header>Risks</header>
-                </section>
-            </div>
+                    <ul>
+                        <li>
+                            The earliest operations on the pericardium (the sac that surrounds the heart) took place in the 19th century and were performed by Francisco Romero (1801) in the city of Almería (Spain), Dominique Jean Larrey (1810), 
+                            Henry Dalton (1891), and Daniel Hale Williams (1893). The first surgery on the heart itself was performed by Axel Cappelen on 4 September 1895 at Rikshospitalet in Kristiania, now Oslo. 
+                            Cappelen ligated a bleeding coronary artery in a 24-year-old man who had been stabbed in the left axilla and was in deep shock upon arrival. 
+                            Access was through a left thoracotomy. The patient awoke and seemed fine for 24 hours, but became ill with a fever and died three days after the surgery from mediastinitis
+                        </li>
+                    </ul>
+
+                    <h3>20th Century</h3>
+                    <ul>
+                        <li>Surgery on the great vessels (e.g., aortic coarctation repair, Blalock–Thomas–Taussig shunt creation, closure of patent ductus arteriosus) became common after the turn of the century. However, operations on the heart valves were unknown until, in 1925, Henry Souttar operated successfully on a young woman with mitral valve stenosis. He made an opening in the appendage of the left atrium and inserted a finger in order to palpate and explore the damaged mitral valve. 
+                            The patient survived for several years,[5] but Souttar's colleagues considered the procedure unjustified, and he could not continue.
+                        </li>
+                        <li>
+                            Alfred Blalock, Helen Taussig, and Vivien Thomas performed the first successful palliative pediatric cardiac operation at Johns Hopkins Hospital on 29 November 1944, in a one-year-old girl with Tetralogy of Fallot.
+                        </li>
+                        <li>
+                            Cardiac surgery changed significantly after World War II. In 1947, Thomas Sellors of Middlesex Hospital in London operated on a Tetralogy of Fallot patient with pulmonary stenosis and successfully divided the stenosed pulmonary valve. In 1948, Russell Brock, probably unaware of Sellors's work, used a specially designed dilator in three cases of pulmonary stenosis. Later that year, he designed a punch to resect a stenosed infundibulum, which is often associated with Tetralogy of Fallot.
+                            Many thousands of these "blind" operations were performed until the introduction of cardiopulmonary bypass made direct surgery on valves possible.
+                        </li>
+                        <li>
+                            Also in 1948, four surgeons carried out successful operations for mitral valve stenosis resulting from rheumatic fever. Horace Smithy of Charlotte used a valvulotome to remove a portion of a patient's mitral valve,[10] while three other doctors—Charles Bailey of Hahnemann University Hospital in Philadelphia; Dwight Harken in Boston; and Russell Brock of Guy's Hospital in London—adopted Souttar's method. 
+                            All four men began their work independently of one another within a period of a few months. This time, Souttar's technique was widely adopted, with some modifications.
+                        </li>
+                        <li>
+                            The first successful intracardiac correction of a congenital heart defect using hypothermia was performed by lead surgeon Dr. F. John Lewis (Dr. C. Walton Lillehei assisted) at the University of Minnesota on 2 September 1952. 
+                            In 1953, Alexander Alexandrovich Vishnevsky conducted the first cardiac surgery under local anesthesia. In 1956, Dr. John Carter Callaghan performed the first documented open-heart surgery in Canada.
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="main-section" id="Types_of_cardiac_surgery">
+                <header>Types of cardiac surgery</header>
+                <h3>Open-heart surgery</h3>
+                <article>
+                    <p>
+                        Open-heart surgery is any kind of surgery in which a surgeon makes a large incision (cut) in the chest to open the rib cage and operate on the heart. "Open" refers to the chest, not the heart. Depending on the type of surgery, the surgeon also may open the heart.
+                        <br>
+                        Dr. Wilfred G. Bigelow of the University of Toronto found that procedures involving opening the patient's heart could be performed better in a bloodless and motionless environment. Therefore, during such surgery, the heart is temporarily stopped, and the patient is placed on cardiopulmonary bypass, meaning a machine pumps their blood and oxygen. 
+                        Because the machine cannot function the same way as the heart, surgeons try to minimize the time a patient spends on it.
+                        <br>
+                        Cardiopulmonary bypass was developed after surgeons realized the limitations of hypothermia in cardiac surgery: Complex intracardiac repairs take time, and the patient needs blood flow to the body (particularly to the brain), as well as heart and lung function. 
+                        In July 1952, Forest Dodrill was the first to use a mechanical pump in a human to bypass the left side of the heart whilst allowing the patient's lungs to oxygenate the blood, in order to operate on the mitral valve.
+                        In 1953, Dr. John Heysham Gibbon of Jefferson Medical School in Philadelphia reported the first successful use of extracorporeal circulation by means of an oxygenator, but he abandoned the method after subsequent failures. 
+                        In 1954, Dr. Lillehei performed a series of successful operations with the controlled cross-circulation technique, in which the patient's mother or father was used as a "heart-lung machine". Dr. John W. Kirklin at the Mayo Clinic was the first to use a Gibbon-type pump-oxygenator.
+                        <br>
+                        Nazih Zuhdi performed the first total intentional hemodilution open-heart surgery on Terry Gene Nix, age 7, on 25 February 1960 at Mercy Hospital in Oklahoma City. The operation was a success; however, Nix died three years later.
+                        In March 1961, Zuhdi, Carey, and Greer performed open-heart surgery on a child, aged 3 1/2, using the total intentional hemodilution machine.
+                    </p>
+
+                    <h3>Modern beating-heart surgery</h3>
+                    <p>
+                        In the early 1990s, surgeons began to perform off-pump coronary artery bypass, done without cardiopulmonary bypass. 
+                        In these operations, the heart continues beating during surgery, but is stabilized to provide an almost still work area in which to connect a conduit vessel that bypasses a blockage. 
+                        The conduit vessel that is often used is the Saphenous vein. This vein is harvested using a technique known as endoscopic vessel harvesting (EVH).
+                    </p>
+
+                    <h3>Heart transplant</h3>
+                    <p>
+                        In 1945, the Soviet pathologist Nikolai Sinitsyn successfully transplanted a heart from one frog to another frog and from one dog to another dog.
+                        <br>
+                        Norman Shumway is widely regarded as the father of human heart transplantation, although the world's first adult heart transplant was performed by a South African cardiac surgeon, Christiaan Barnard, using techniques developed by Shumway and Richard Lower.
+                        Barnard performed the first transplant on Louis Washkansky on 3 December 1967 at Groote Schuur Hospital in Cape Town. Adrian Kantrowitz performed the first pediatric heart transplant on 6 December 1967 at Maimonides Hospital (now Maimonides Medical Center) in Brooklyn, New York, barely three days later. 
+                        Shumway performed the first adult heart transplant in the United States on 6 January 1968 at Stanford University Hospital.
+                    </p>
+
+                    <h3>Coronary Artery Bypass Grafting (CABG)</h3>
+                    <p>
+                        Coronary artery bypass grafting, also called revascularization, is a common surgical procedure to create an alternative path to deliver blood supply to the heart and body, with the goal of preventing clot formation. 
+                        This can be done in many ways, and the arteries used can be taken from several areas of the body.
+                        Arteries are typically harvested from the chest, arm, or wrist and then attached to a portion of the coronary artery, relieving pressure and limiting clotting factors in that area of the heart.
+                    </p>
+
+                    <h3>Minimally invasive surgery</h3>
+                    <p>
+                        As an alternative to open-heart surgery, which involves a five- to eight-inch incision in the chest wall, a surgeon may perform an endoscopic procedure by making very small incisions through which a camera and specialized tools are inserted.
+                        In robot-assisted heart surgery, a machine controlled by a cardiac surgeon is used to perform a procedure. The main advantage to this is the size of the incision required: three small port holes instead of an incision big enough for the surgeon's hands.
+                        The use of robotics in heart surgery continues to be evaluated, but early research has shown it to be a safe alternative to traditional techniques.
+                    </p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Post-surgical_procedures">
+                <header>Post-surgical procedures</header>
+                <article>
+                    <p>
+                        As with any surgical procedure, cardiac surgery requires postoperative precautions to avoid complications. Incision care is needed to avoid infection and minimize scarring. Swelling and loss of appetite are common.
+                        Recovery from open-heart surgery begins with about 48 hours in an intensive care unit, where heart rate, blood pressure, and oxygen levels are closely monitored. Chest tubes are inserted to drain blood around the heart and lungs. 
+                        After discharge from the hospital, compression socks may be recommended in order to regulate blood flow.
+                    </p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Risks">
+                <header>Risks</header>
+                <article>
+                    <p>
+                        The advancement of cardiac surgery and cardiopulmonary bypass techniques has greatly reduced the mortality rates of these procedures. For instance, repairs of congenital heart defects are currently estimated to have 4–6% mortality rates.
+                        <br>
+                        A major concern with cardiac surgery is neurological damage. Stroke occurs in 2–3% of all people undergoing cardiac surgery, and the rate is higher in patients with other risk factors for stroke.
+                        A more subtle complication attributed to cardiopulmonary bypass is postperfusion syndrome, sometimes called "pumphead". 
+                        The neurocognitive symptoms of postperfusion syndrome were initially thought to be permanent, but turned out to be transient, with no permanent neurological impairment.
+                        <br>
+                        In order to assess the performance of surgical units and individual surgeons, a popular risk model has been created called the EuroSCORE. 
+                        It takes a number of health factors from a patient and, using precalculated logistic regression coefficients, attempts to quantify the probability that they will survive to discharge. 
+                        Within the United Kingdom, the EuroSCORE was used to give a breakdown of all cardiothoracic surgery centres and to indicate whether the units and their individuals surgeons performed within an acceptable range. 
+                        The results are available on the Care Quality Commission website.
+                        <br>
+                        Another important source of complications are the neuropsychological and psychopathologic changes following open-heart surgery. 
+                        One example is Skumin syndrome, described by Victor Skumin in 1978, which is a "cardioprosthetic psychopathological syndrome" associated with mechanical heart valve implants and characterized by irrational fear, anxiety, depression, sleep disorder, and weakness.
+                    </p>
+                    <h3>Risk reduction</h3>
+                    <p>
+                        Pharmacological and non-pharmacological prevention approaches may reduce the risk of atrial fibrillation after an operation and reduce the length of hospital stays, however there is no evidence that this improves mortality.
+                    </p>
+
+                    <h3>Non-pharmacologic approaches</h3>
+                    <p>
+                        Preoperative physical therapy may reduce postoperative pulmonary complications, such as pneumonia and atelectasis, in patients undergoing elective cardiac surgery and may decrease the length of hospital stay by more than three days on average.
+                        There is evidence that quitting smoking at least four weeks before surgery may reduce the risk of postoperative complications.
+                    </p>
+
+                    <h3>Pharmacological approaches</h3>
+                    <p>
+                        Beta-blocking medication is sometimes prescribed during cardiac surgery. 
+                        There is some low certainty evidence that this perioperative blockade of beta-adrenergic receptors may reduce the incidence of atrial fibrillation and ventricular arrhythmias in patients undergoing cardiac surgery.
+                    </p>
+                </article>
+            </section>
             
+            <section class="main-section" id="Code">
+                <header>Code</header>
+                <p>In HTML, the <code>code</code> tag is used to define a piece of computer code.</p>
+                <p>The <code>!important</code> rule is used to add more importance to a property/value than normal.</p>
+                <p>The <code>float</code> property is used for positioning and formatting content.</p>
+                <p>The <code>color</code> property allows you to change the color of font.</p>
+                <p>The <code>ul</code> tag is for making unordered lists.</p>
+            </section>
         </main>    
     </body>
 </html>
